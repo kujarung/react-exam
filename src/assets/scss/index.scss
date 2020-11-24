@@ -1,0 +1,35 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.gap {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+
+  &.test-1 {
+    background-color: aqua;
+  }
+
+  &.test-2 {
+    background-color: blue;
+  }
+
+  &.test-3 {
+    background-color: gold;
+  }
+}
+
+.change-list {
+  background-color: green;
+}
